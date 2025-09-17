@@ -77,7 +77,7 @@ class CAR(Platforms):
   )
   NISSAN_ALTIMA_21 = NissanPlatformConfig(
     [NissanCarDocs("Nissan Altima SV 2021", car_parts=CarParts.common([CarHarness.nissan_b]))],
-    NissanCarSpecs(mass=1628, wheelbase=2.824, steerRatio: 17.465)
+    NissanCarSpecs(mass=1628, wheelbase=2.824, steerRatio=17.465)
   )
 
 
